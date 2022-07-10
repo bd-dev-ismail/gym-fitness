@@ -120,3 +120,21 @@ h2{
 #card-3 {
     background-color: #e02bff63;
 }
+/* End Card Section Design */
+.about-container{
+    display: flex;
+}
+.img-container{
+
+    border: 1px solid red;;
+    display: flex;
+}
+.img-container img{
+    width: 350px;
+    height: 550px;
+    transform: skewY(-15deg);
+}
+.about-description{
+    width: 700px;
+    border: 1px solid salmon;
+}
