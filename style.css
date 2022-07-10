@@ -40,9 +40,9 @@
     width: 100%;
     height: 100vh;
     background-color: #000;
-    justify-content: space-evenly;
-    color: #fff;
     align-items: center;
+    color: #fff;
+    
 }
 .banner-description{
     margin-left: 50px;
@@ -72,3 +72,4 @@
     background-color: blue;
     
 }
+/* End Banner Section*/
