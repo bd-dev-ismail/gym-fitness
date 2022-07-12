@@ -52,7 +52,7 @@ p{
 
 }
 .menu-items li:hover{
-    color: orange;
+    color: red;
     cursor: pointer;
 }
 .banner-container{
