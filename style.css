@@ -7,9 +7,16 @@ h1{
     font-weight: bold;
 }
 h2{
-    font-size: 50px;
+    font-size: 52px;
     font-weight: bold;
     margin-bottom: 50px;
+}
+h3{
+    font-size: 42px;
+    font-weight: 700;
+}
+p{
+    font-size: 18px;
 }
 .menu-container{
     display: flex;
@@ -75,7 +82,7 @@ h2{
     font-size: 18px;
     color: #fff;
     background-color: red;
-    margin: 10px;
+    margin-top: 30px;
 }
 .banner-btn:hover{
     background-color: blue;
@@ -93,8 +100,8 @@ h2{
     text-align: center;
 }
 .card-items{
-    width: 350px;
-    height: 220px;
+    width: 400px;
+    height: 270px;
     border: 1px solid gray;
     display: flex;
     text-align: center;
@@ -121,20 +128,86 @@ h2{
     background-color: #e02bff63;
 }
 /* End Card Section Design */
+#about{
+    width: 100%;
+    height: 700px;
+    margin-top: 100px;
+    background-color:#100f0f;
+    color: #fff;
+    padding: 10px 0;
+ }
+.about-title{
+    margin: 40px 0;
+}
 .about-container{
     display: flex;
+    
 }
 .img-container{
-
-    border: 1px solid red;;
+    width: 700px;
     display: flex;
+    margin-left: 150px;
+    margin-top: 20px;
+        
 }
 .img-container img{
-    width: 350px;
-    height: 550px;
+    height: 500px;
     transform: skewY(-15deg);
+    padding: 20px;
+
 }
 .about-description{
     width: 700px;
-    border: 1px solid salmon;
+    margin-left: 200px;
+}
+.about-paragraph{
+    margin-bottom: 20px;
+}
+.about-description ul,
+button
+{
+    margin: 40px 0;
+}
+
+.about-description button a:link{
+    text-decoration: none;
+    color: #fff;
+}
+/* End About Section */
+#workout{
+    width: 750px;
+    height: 250px;
+    background-image: url(./images/Group_33094_1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 0 auto;
+    border-radius: 25px;
+    
+    
+}
+.workout-container{
+    margin-top: 70px;
+    margin-bottom: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 65px;
+    color: #fff;
+}
+.workout-btn button{
+    padding: 15px 30px;
+    background-color: rgb(248, 246, 246);
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    font-weight: 300;
+}
+.workout-btn button:hover{
+    background-color: blue;
+    color: #fff;
+}
+/* End Workout Section */
+#services{
+    margin: 130px 0;
 }
