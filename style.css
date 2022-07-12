@@ -15,6 +15,10 @@ h3{
     font-size: 42px;
     font-weight: 700;
 }
+h4{
+    font-size: 22px;
+    color: red;
+}
 p{
     font-size: 18px;
 }
@@ -210,4 +214,91 @@ button
 /* End Workout Section */
 #services{
     margin: 130px 0;
+}
+.services-item-1{
+    width: 350px;
+    border: 10px;
+    box-shadow: 8px 8px 16px rgb(17 16 16);
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 30px;
+}
+.item-description img{
+    width: 100%;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+.item-title h3,
+.item-price h3{
+    padding: 10px 0;
+    font-size: 28px;
+}
+.item-title{
+    padding: 15px;
+}
+.item-price{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.dollor{
+    margin-left: -40px;
+}
+.join-today{
+    color: red;
+    font-size: 18px;
+    font-weight: 300;
+}
+.services-items{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.batch{
+    position: relative;
+
+}
+.batch-img{
+    position: absolute;
+    width: 70px;
+    top: -30px;
+    left: 85%;
+}
+#service-1{
+    border-left: 5px solid red;
+}
+#service-2 {
+    border-left: 5px solid blue;
+}
+#service-3 {
+    border-left: 5px solid gold;
+}
+/* End Services Section */
+.footer-container{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    text-align: center;
+    padding: 100px 0;
+}
+.social-link{
+    padding: 30px;
+}
+
+.social-link a{
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0 10px;
+}
+.social-link a:hover{
+    color: red;
+}
+.footer-description a{
+    text-decoration: none;
+    color: red;
+}
+hr{
+    margin: 0 200px;
 }
